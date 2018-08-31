@@ -2,94 +2,99 @@
 <html>
 	<head>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" charset="utf-8">
-		<title>design</title>
-		<link rel="stylesheet" type="text/css" href="lightbox.css">
+		<title>Lightbox Gallery</title>
+		<link rel="stylesheet" type="text/css" href="css/lightbox.css">
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-		<script type="text/javascript" src="lightbox.js"></script>
+		<script type="text/javascript" src="js/lightbox.js"></script>
 	</head>
 	<body>
+
+		<!-- INSERT IMAGES IN HERE -->
 		<div id="gallery">
-			<div id="slay_kenny" class="frame">
-				<img class="thumbnail" src="placeholder.jpg" alt="Chicken Slay logo mocked up on stickers">
+			<div id="ocean" class="frame">
+				<img class="thumbnail" src="img/photo_1.jpg" alt="">
 				<div class="overlay">
-					<p>Chicken Slay logo</p>
+					<p>Parasailing over the pacific ocean.</p>
 				</div>
 			</div>
 
-			<div id="card_foster" class="frame">
-				<img class="thumbnail" src="placeholder.jpg" alt="Maverick-themed Christmas Card">
+			<div id="mountains" class="frame">
+				<img class="thumbnail" src="img/photo_2.jpg" alt="">
 				<div class="overlay">
-					<p>My submission for a class competetion for our university president's alumni Christmas cards</p>
+					<p>The mountains over Zion National Park.</p>
 				</div>
 			</div>
 
-			<div id="horror_book_cover" class="frame">
-				<img class="thumbnail" src="placeholder.jpg" alt="Horror book cover mockup">
+			<div id="beach" class="frame">
+				<img class="thumbnail" src="img/photo_3.jpg" alt="">
 				<div class="overlay">
-					<p>Digital illustration done in Photoshop of a horror-themed little mermaid parody book cover</p>
+					<p>A beach in Hawaii.</p>
 				</div>
 			</div>
 
-			<div id="showcase_cards" class="frame">
-				<img class="thumbnail" src="placeholder.jpg">
+			<div id="yard" class="frame">
+				<img class="thumbnail" src="img/photo_4.jpg">
 				<div class="overlay">
-					<p>A formal and elegant logo for my university's author showcase</p>
+					<p>The yard of my first house.</p>
 				</div>
 			</div>
 
-			<div id="salsa_maker" class="frame">
-				<img class="thumbnail" src="placeholder.jpg" alt="Salsa Maker Manual">
+			<div id="tent" class="frame">
+				<img class="thumbnail" src="img/photo_5.jpg" alt="">
 				<div class="overlay">
-					<p>Deconstructed, drew, and vectorized each step of how to put together a salsa maker to create an instruction manual</p>
+					<p>Cute yellow tent spotted near our campgrounds.</p>
 				</div>
 			</div>
 
-			<div id="home_watercolor" class="frame">
-				<img class="thumbnail" src="placeholder.jpg" alt="Watercolored page">
+			<div id="campfire" class="frame">
+				<img class="thumbnail" src="img/photo_6.jpg" alt="Watercolored page">
 				<div class="overlay">
-					<p>Mimicked Carson Ellis' illustration style and recreated a page from 'Home' using watercolor and dip pen</p>
-				</div>
-			</div>
-
-			<div id="lightbox">
-				<div id="lightbox-wrapper">
-					<div class="slide" data-id="slay_kenny">
-						<img src="placeholder.jpg">
-						<p class="caption">
-							Chicken Slay logo
-						</p>
-					</div>
-					
-					<div class="slide" data-id="card_foster">
-						<img src="placeholder.jpg">
-						<p class="caption"></p>
-					</div>
-
-					<div class="slide" data-id="horror_book_cover">
-						<img src="placeholder.jpg">
-						<p class="caption"></p>
-					</div>
-
-					<div class="slide" data-id="showcase_cards">
-						<img src="placeholder.jpg">
-						<p class="caption"></p>
-					</div>
-
-					<div class="slide" data-id="salsa_maker">
-						<img src="placeholder.jpg">
-						<p class="caption"></p>
-					</div>
-
-					<div class="slide" data-id="home_watercolor">
-						<img src="placeholder.jpg">
-						<p class="caption"></p>
-					</div>
-
-					<a class="prev">&#10094;</a>
-					<a class="next">&#10095;</a>
-					<a class="close">&times;</a>
+					<p>Getting the campfire ready!</p>
 				</div>
 			</div>
 		</div>
+		<!-- END GALLERY -->
+
+		<div id="lightbox">
+			<div id="lightbox-wrapper">
+
+				<!-- INSERT IMAGES HERE -->
+				<div class="slide" data-id="ocean">
+					<img src="img/photo_1.jpg">
+					<p class="caption"></p>
+				</div>
+				
+				<div class="slide" data-id="mountains">
+					<img src="img/photo_2.jpg">
+					<p class="caption"></p>
+				</div>
+
+				<div class="slide" data-id="beach">
+					<img src="img/photo_3.jpg">
+					<p class="caption"></p>
+				</div>
+
+				<div class="slide" data-id="yard">
+					<img src="img/photo_4.jpg">
+					<p class="caption"></p>
+				</div>
+
+				<div class="slide" data-id="tent">
+					<img src="img/photo_5.jpg">
+					<p class="caption"></p>
+				</div>
+
+				<div class="slide" data-id="campfire">
+					<img src="img/photo_6.jpg">
+					<p class="caption"></p>
+				</div>
+				<!-- LIGHTBOX IMAGES END -->
+
+				<a class="prev">&#10094;</a>
+				<a class="next">&#10095;</a>
+				<a class="close">&times;</a>
+			</div>
+		</div>
+
 	</body>
 </html>
